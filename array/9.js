@@ -23,6 +23,7 @@ function zad9(arr,b){
     }
     console.log(arrPlain);
 
+
    /* for (let i = 0; i < arr.length; i += b) {            //есть способ для слабаков через методы . Но есть и для тру парней( смотреть выше)
         arrPlain.push(arr.slice(i, i + b));
     }
