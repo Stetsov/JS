@@ -12,4 +12,4 @@ function zad1 (a,b){
     console.log(arr);
 }
 
-zad1(3, 'a');
+zad1(4, 'a');
