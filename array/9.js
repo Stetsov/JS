@@ -25,5 +25,5 @@ function splitArray(arr,b){
 }
 
 let arr1 = [1, 2, 3, 4, 5]
-let s = 4;
-splitArray(arr1,s);
+let n = 4;
+splitArray(arr1,n);

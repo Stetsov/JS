@@ -22,5 +22,5 @@ function returnArray(a){
     console.log(arrClean);
 }
 
-let arr = [1,2,3,1,2, 7, 9,9];
+let arr = [1, 2, 3, 1, 2];
 returnArray(arr);
