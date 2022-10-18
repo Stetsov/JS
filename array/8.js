@@ -31,5 +31,4 @@ function zad8(a){
 }
 
 let arr = [1, 2, [3, 4, [5]]];
-//let arr2 = [1,[2,3],4,[5,[6,4]]]
 zad8(arr);

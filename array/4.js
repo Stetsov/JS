@@ -10,6 +10,5 @@ function zad4([arr]){
     }
     console.log(obj);
 }
-
 let arr = [['a', 1], ['b', 2]];
 zad4(arr);

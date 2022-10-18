@@ -10,13 +10,11 @@ function zad7(a,b){
                 console.log('false');
                 return;
             }
-
         }
         console.log('true');
     }
     else console.log('false');
 }
-
 let arr1 = [1, 2, 3];
 let arr2 = [1, 2, 3];
 zad7(arr1,arr2);
