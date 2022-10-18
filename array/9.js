@@ -3,16 +3,16 @@
  * Expected Result: ([1, 2, 3, 4, 5], 2) => [[1, 2], [3, 4], [5]]*/
 
 
-function zad9(arr,b){
+function splitArray(arr,b){
     let arrPlain = [];
-    for(let i = 0;i<arr.length/b;i++){          //генерируем хрень для создания массива нужного вида. Без этого выдает ошибку
+    for(let i = 0; i < arr.length/b; i++){          //генерируем хрень для создания массива нужного вида. Без этого выдает ошибку
         arrPlain.push([]);
     }
     let d = 0;          //с помощью всяких счетчиков типа переменных бегаем по массиву и понимает что куда сунуть
     let j = 0;
     let t = 0;
-    for(let i = 0; i<arr.length;i++){
-        if(t===b){
+    for(let i = 0; i < arr.length; i++){
+        if(t === b){
             d++;
             t = 0;
             j = 0;
@@ -23,6 +23,7 @@ function zad9(arr,b){
     }
     console.log(arrPlain);
 }
-let arr1 = [1, 2, 3, 4, 5,6,7,8,9,10]
+
+let arr1 = [1, 2, 3, 4, 5]
 let s = 4;
-zad9(arr1,s);
+splitArray(arr1,s);

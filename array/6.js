@@ -3,11 +3,11 @@
  * Expected Result: Duplicate-free array [1, 2, 3, 1, 2] => [1, 2, 3]*/
 
 
-function zad6(a){
+function returnDuplicate(a){
     a.sort();
     let arrClean = [];
     let j = 0;
-    for (let i = 0; i<a.length;i++){
+    for (let i = 0; i < a.length; i++){
         if(a[i] !== a[i+1] ){
             arrClean[j] = a[i];
             j++;
@@ -15,5 +15,6 @@ function zad6(a){
     }
     console.log(arrClean);
 }
-let arr = [1, 2, 3, 1, 2,4, 4, 2, 1, 4, 3,7];
-zad6(arr);
+
+let arr = [1, 2, 3, 1, 2];
+returnDuplicate(arr);

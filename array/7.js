@@ -3,9 +3,9 @@
  * Expected Result: ([1, 2, 3], [1, 2, 3]) => true*/
 
 
-function zad7(a,b){
+function IdenticalArray(a,b){
     if (a.length === b.length){
-        for (let i = 0; i<a.length;i++){
+        for (let i = 0; i < a.length; i++){
             if(a[i] !== b[i]){
                 console.log('false');
                 return;
@@ -13,8 +13,10 @@ function zad7(a,b){
         }
         console.log('true');
     }
-    else console.log('false');
+    else
+        console.log('false');
 }
+
 let arr1 = [1, 2, 3];
 let arr2 = [1, 2, 3];
-zad7(arr1,arr2);
+IdenticalArray(arr1,arr2);

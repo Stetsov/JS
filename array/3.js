@@ -4,16 +4,17 @@
  like false, undefined, empty, strings, zero, null
   * Expected Result: [0, 1, false, 2, undefined, '', 3, null] => [1, 2, 3]*/
 
-function zad3 (a){
+function cleaner(a){
     let arr = [];
     let j = 0;
-    for(let i = 0;i<a.length;i++){
-        if( typeof a[i] === typeof j ){
+    for(let i = 0; i < a.length; i++){
+        if(typeof a[i] === typeof Number()){
             arr[j] = a[i];
             j++;
         }
     }
     console.log(arr);
 }
+
 let arr = [1, 2, 'a', null, 3, 4, undefined]
-zad3(arr);
+cleaner(arr);
