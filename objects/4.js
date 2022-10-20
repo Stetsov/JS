@@ -3,16 +3,16 @@
 * Expected Result: ({}) => true, ({ a: undefined }) => true, ({ a: 1 }) => false*/
 
 function checkEmpty(obj) {
-    let num=true;
+    let check = true;
     for (let key in obj) {
         if (obj[key] === undefined) {
-            num = true;
+            check = true;
         }
         else {
-            num = false;
+            check = false;
         }
     }
-    console.log(num);
+    console.log(check);
 }
 
 let obj = {
