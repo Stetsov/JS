@@ -3,7 +3,7 @@
 * Expected Result: ({ a: 1, b: 2 }, 'b') => { a: 1 }*/
 
 function getObject(obj, n) {
-    for( key in obj) {
+    for(let key in obj) {
         if (key === n) {
             delete obj[key];
         }
